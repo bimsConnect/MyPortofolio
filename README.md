@@ -1,4 +1,5 @@
 ## My Portofolio
 
-
-![demo](src/assets/images/demo.gif)
+check this demo
+<pre> my-portofolio-phi-pearl.vercel.app
+</pre>
