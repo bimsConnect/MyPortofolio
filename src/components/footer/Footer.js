@@ -13,10 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by bimsConnect")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a href="https://github.com/bimsConnect">
-            bimsConnect
-          </a>
+          Theme by <a href="https://github.com/bimsConnect">bimsConnect</a>
         </p>
       </div>
     </Fade>

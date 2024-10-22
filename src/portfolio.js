@@ -50,7 +50,7 @@ const skillsSection = {
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -92,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Figma",
       fontAwesomeClassname: "fab fa-figma"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -112,7 +112,7 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }
   ]
 };
 
@@ -140,13 +140,10 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  title : emoji ("Experiences"),
-  subtitle : 
-    "Not Yet",
+  title: emoji("Experiences"),
+  subtitle: "Not Yet",
   display: true, //Set it to true to show workExperiences Section
-  experience: [
-
-  ]
+  experience: []
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -174,7 +171,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -184,11 +181,9 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Not Yet",
+  subtitle: "Not Yet",
 
-  achievementsCards: [
-  ],
+  achievementsCards: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -196,12 +191,9 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "Not Yet",
+  subtitle: "Not Yet",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-
-  ],
+  blogs: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -211,7 +203,7 @@ const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  )
 };
 
 // Podcast Section
