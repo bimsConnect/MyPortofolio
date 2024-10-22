@@ -142,7 +142,7 @@ const techStack = {
 const workExperiences = {
   title: emoji("Experiences"),
   subtitle: "Not Yet",
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: []
 };
 
@@ -194,7 +194,7 @@ const blogSection = {
   subtitle: "Not Yet",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -216,11 +216,13 @@ const podcastSection = {
   podcast: [
     {
       title: "My Favorite Playlist",
-      link: "https://open.spotify.com/playlist/7mkkg6Lj5KfywFIdfK0Z4p?si=84cbfdad3a404b48"
+      link: "https://open.spotify.com/playlist/7mkkg6Lj5KfywFIdfK0Z4p?si=aaed9624a7714611",
+      image: "https://i.scdn.co/image/ab67706c0000bebb5c5564818ba7b431da297194" // Contoh gambar dari Spotify
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Resume Section
 const resumeSection = {
@@ -243,7 +245,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
