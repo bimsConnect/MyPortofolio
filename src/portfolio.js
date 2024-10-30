@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/bimsConnect",
   linkedin: "https://www.linkedin.com/in/Muhammad Bisma/",
   gmail: "devourbisma@gmail.com",
-  Instagram: "https://www.instagram.com/bisma_ptra20/",
+  instagram: "https://www.instagram.com/bisma_ptra20/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -215,9 +215,9 @@ const podcastSection = {
   // Link ke playlist Spotify
   podcast: [
     {
-      title: "My Favorite Playlist",
+      title: "",
       link: "https://open.spotify.com/playlist/7mkkg6Lj5KfywFIdfK0Z4p?si=aaed9624a7714611",
-      image: "https://i.scdn.co/image/ab67706c0000bebb5c5564818ba7b431da297194" // Contoh gambar dari Spotify
+      image: "https://i.scdn.co/image/ab67706c0000bebb5c5564818ba7b431da297194" 
     }
   ],
   display: true // Set false to hide this section, defaults to true
