@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/bimsConnect",
-  linkedin: "https://www.linkedin.com/in/Muhammad Bisma/",
+  linkedin: "https://www.linkedin.com/in/muhammad-bisma-5266b22b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   gmail: "devourbisma@gmail.com",
   instagram: "https://www.instagram.com/bisma_ptra20/",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -217,12 +217,11 @@ const podcastSection = {
     {
       title: "",
       link: "https://open.spotify.com/playlist/7mkkg6Lj5KfywFIdfK0Z4p?si=aaed9624a7714611",
-      image: "https://i.scdn.co/image/ab67706c0000bebb5c5564818ba7b431da297194" 
+      image: "https://i.scdn.co/image/ab67706c0000bebb5c5564818ba7b431da297194"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Resume Section
 const resumeSection = {
